@@ -23,6 +23,14 @@ export default function Footer() {
             <h4>General Conditions</h4>
             <p>Privacy policy</p>
           </div>
+          <div
+            onClick={() => {
+              scrollTo(0, 0);
+            }}
+            className={styles.upArrow}
+          >
+            <img src="icons/arrow-up_icon.svg" />
+          </div>
         </div>
         <hr className={styles.hr} />
         <div className={styles.row}>

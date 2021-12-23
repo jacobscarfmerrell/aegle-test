@@ -51,21 +51,15 @@ main {
   align-items: center;
 }
 
-.container {
+.blue-background {
   background: #0e4656;
-  height: 120vh;
+  border-bottom: 200px solid #eee;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-}
-
-h1 {
-  font-family: 'Rufina', sans-serif;
-  font-weight: 400;
-  font-size: 48px;
-  color: white;
 }
 
 /* Headers */
